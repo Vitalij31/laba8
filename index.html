@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Company</title>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <header class="box1 animate__animated animate__fadeInDown">
+        <div class="box2 animate__animated animate__fadeInDown">
+            <div class="wrapper-inner">
+                <div class="offer">
+                    <img class="img1" src="img/logo.png">
+                    <h1 class="offer_titel">С помощью нас вы сможете создать то, о чем</h1>
+                    <span class="offer_span">Желаете!</span>
+                    <p class="offer_text">Наши возможности + опыт позволит вам достичь огромного успеха. Мы (не) верим в вас! И знаем это на все 100% Вас не остановить!</p>
+                    <form action="https://project6390433.tilda.ws/" target="_blank">
+                        <button>НАЖМИ НА МЕНЯ</button>
+                    </form>
+                    <p class="offer_text">Друк папрасил прарекламеровать, не сутите сдрога</p>
+                </div>
+                <img class="img2" src="img/header-img.png">
+            </div>
+        </div>
+    </header>
+
+    <section class="features">
+        <h2 class="features_title">Что Вам необходимо?</h2>
+        <div class="features_container">
+            <div class="feature_block">
+                <img class="img3" src="img/f3.png" alt="Первый блок">
+                <h3 class="feature_title">Первый блок</h3>
+                <p class="feature_text">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </div>
+            <div class="feature_block">
+                <img class="img4" src="img/f4.png" alt="Второй блок">
+                <h3 class="feature_title">Второй блок</h3>
+                <p class="feature_text">Lorem ipsum dolor sit amet consectetur adipisicing elit?</p>
+            </div>
+            <div class="feature_block">
+                <img class="img5" src="img/f5.png" alt="Третий блок">
+                <h3 class="feature_title">Третий блок</h3>
+                <p class="feature_text">Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="order-form">
+        <h2 class="form_title">Форма заказа продукта или услуги</h2>
+        <form id="productOrderForm" class="form_container">
+            <label>Имя: <input type="text" id="firstName"></label>
+            <label>Фамилия: <input type="text" id="lastName"></label>
+            <label>Номер телефона: <input type="text" id="phoneNumber"> </label>
+            <label>Пункт назначения: <input type="text" id="destination"></label>
+            <label>Дата и время: 
+                <input type="date" id="date">
+                <input type="time" id="time">
+            </label>
+             <label>Количество: <input type="number" id="quantity" min="1"></label>
+            <label>Способ оплаты: 
+                <select id="paymentMethod">
+                    <option value="Наличные">Наличные</option>
+                    <option value="Карта">Карта</option>
+                    <option value="Онлайн">Онлайн</option>
+                    <option value="Сбер-спасибо">Сбер-спасибо</option>
+                    <option value="Пожалуйста">Пожалуйста</option>
+                    <option value="5р потом занесу">5р потом занесу</option>
+                    <option value="ЗОЛОТОМ">ЗОЛОТОМ</option>
+                </select>
+            </label>
+            <button type="button" id="submitOrder">Отправить заказ</button>
+        </form>
+        <div id="output" class="summary-container"></div>
+    </section>
+
+    <section class="contact-form">
+        <h2 class="form_title">Форма заказа обратного звонка</h2>
+        <form class="form_container">
+            <input type="text" placeholder="Имя" required>
+            <input type="email" placeholder="Введите свой E-mail" required>
+            <input type="tel" placeholder="Телефон" required>
+            <input type="text" placeholder="Какая тема Вас интересует?" required>
+            <form action="https://youtu.be/dQw4w9WgXcQ?si=guqvAduhwuekuAe3" target="_blank">
+                <button>Узнать больше...</button>
+            </form>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>© Все на этом сайте защищено</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
